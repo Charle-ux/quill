@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>Create journal</title>
+</head>
+<body>
+    <fieldset>
+        <legend><h1>Create journal</h1></legend>
+        <form action="/api/v1/journals" method="post">
+
+            <label for="main title">journal title</label>
+            <input id="main title" type="text" name="text" placeholder="enter text" minlength="3" required >
+            
+            <label for="Date">Date</label>
+            <input type="date" name="date" id="Date">
+            
+            <br>
+    
+            <label for="journal category">journal category</label> 
+            <select name="category" id="journal category" required >
+                <option value="idea">IDEA</option>
+                <option value="note">NOTE</option>
+                <option value="goal">GOAL</option>
+                <option value="habit">HABIT</option>
+                <option value="memory">MEMORY</option>
+                <option value="mood">MOOD</option>
+                <option value="event">EVENT</option>
+                <option value="task">TASK</option>
+            </select>
+
+            <br>
+    
+            <label for="journal entry">journal entry</label>        
+            <textarea id="journal entry" name="entry" cols="30" rows="5" minlength="10" required ></textarea>
+            
+            <br>
+    
+           <button type="submit">submit </button>
+        </form>
+    </fieldset>
+
+    <br>
+
+
+    <fieldset>
+        <legend><h1>Checkboxes</h1></legend>
+        <form action="/food/pizza toppings" method="post">
+           <input id="toppings 1" type="checkbox" name="pineapple" checked >
+           <label for="toppings 1">Pineapple</label>
+
+           <input type="checkbox" name="orange" id="toppings 2">
+           <label for="toppings 2">orange</label>
+
+           <input type="checkbox" name="peaches" id="topping 3">
+           <label for="topping 3">peaches</label>
+
+           <br>
+
+           <button type="submit" >submit</button>
+        </form>
+
+    </fieldset>
+
+
+    <fieldset>
+        <legend><h1>Radio buttons</h1></legend>
+        <form action="/clothings/shirts" method="post">
+            <input type="radio" name="size" id="small" value="s">
+            <label for="small">small</label>
+
+            <input type="radio" name="size" id="medium" value="m">
+            <label for="medium">medium</label>
+
+            <input type="radio" name="size" id="large" value="l">
+            <label for="large">large</label>
+
+            <br>
+
+            <button type="submit">submit</button>
+
+        </form>
+    </fieldset>
+
+    <form class="btn-secondary" action="/clothings/shirts" method="post" >
+        <input type="range" name="" id="">
+        <label for="large">large</label>
+    </form>
+    
+    
+    
+</body> 
+</html>
