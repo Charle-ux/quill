@@ -6,8 +6,10 @@
 .grid-container{
     font-size: 40px;
     display: grid;
-    grid-template-columns: 100px 200px;
-    grid-template-rows:50px 100px 200px 3000px ;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 2fr 3fr 4fr;
+    height: 1000px;
+    width: 400px;   
 }
 
 .grid-item-1{
@@ -31,7 +33,7 @@
 }
 
 .grid-item-6{
-    background-color:orange ;
+    background-color:orange;
 }
 
 .grid-item-7{
