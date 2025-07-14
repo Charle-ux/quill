@@ -168,9 +168,14 @@ p{
     text-decoration: underline;
 }
 a{
-    text-decoration: none;       
+    text-decoration: none;
     font-size: var(--text-base);
     display: inline-block;
+    color:  var(--grey-Base);
+}
+/*you can as well group the pseudo class with the anchor tag(like write it together in one bracket instead of two different command)*/
+a:link, a:visited, a:hover, a:active{
+    color: var(--grey-Shade);
 }
 span{
     display: inline-block;
@@ -299,6 +304,7 @@ ul{
 
 .cta-heading{
     margin-bottom: 2rem;
+    color: var(--White);
 }
 
 /*----------------- features section --------------*/
@@ -315,11 +321,21 @@ ul{
 .features-grid-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    row-gap: 15rem;
+    column-gap: 5rem;
+    justify-items: center;
+    align-items: center;
 }
 
 .features-heading{
     margin-bottom: 2rem;
 }
+
+.features-img-swap-order{
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+}
+
 .features-img{
     max-width: 400px;
     width: 100%;
@@ -349,4 +365,7 @@ ul{
 }
 .logo-sm{
     width: 80px;
+}
+.heart-icon{
+    color: var(--secondary-Base);
 }
