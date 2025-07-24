@@ -370,3 +370,21 @@ ul{
 .heart-icon{
     color: var(--secondary-Base);
 }
+
+.chat-icon-container{
+    display: flex;
+    background-color: var(--primary-tint);
+    height: 7rem;
+    width: 7rem;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    border-radius: 50%;
+}
+
+.chat-icon{
+    width: 5rem;
+    height: 5rem;
+}
