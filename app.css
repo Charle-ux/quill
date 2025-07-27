@@ -200,13 +200,14 @@ ul{
 .btn-primary:link , .btn-primary:visited{
     color: var(--White);
     background-color: var(--primary-base);
-    border: 2px solid var(--primary-base) ; 
+    border: 2px solid var(--primary-base);
 }
 
 .btn-primary:hover, .btn-primary:active{
     color: var(--White);
     background-color: var(--primary-shade);
     border: 2px solid var(--primary-shade);
+    transform: scale(2 , 2);
 }
 .btn-primary-outline:link , .btn-primary-outline:visited{
     color: var(--primary-base);
