@@ -207,7 +207,7 @@ ul{
     color: var(--White);
     background-color: var(--primary-shade);
     border: 2px solid var(--primary-shade);
-    transform: scale(2 , 2);
+    transform: scale(1.05 , 1.05);
 }
 .btn-primary-outline:link , .btn-primary-outline:visited{
     color: var(--primary-base);
@@ -219,6 +219,7 @@ ul{
     color: var(--primary-shade); 
     background-color: var(--White);
     border: 2px solid var(--primary-shade);
+     transform: scale(1.05 , 1.05);
 }
 
 /* secondary filled buttons */
@@ -232,6 +233,7 @@ ul{
     color: var(--White);
     background-color: var(--secondary-Shade);
     border: 2px solid var(--secondary-Shade);
+     transform: scale(1.05, 1.05);
 }
 
 .highlight{
