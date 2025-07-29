@@ -195,31 +195,34 @@ ul{
     padding: 1.5rem 3rem;
     border-radius: 5px;
 }
+/* the properties listed above only the sets the actual structure of the button */
 
 /* primary filled buttons */
 .btn-primary:link , .btn-primary:visited{
     color: var(--White);
     background-color: var(--primary-base);
     border: 2px solid var(--primary-base);
+    transition: 0.5s;
 }
 
 .btn-primary:hover, .btn-primary:active{
     color: var(--White);
     background-color: var(--primary-shade);
     border: 2px solid var(--primary-shade);
-    transform: scale(1.05 , 1.05);
+    transform: scale(1.1 , 1.1);
 }
 .btn-primary-outline:link , .btn-primary-outline:visited{
     color: var(--primary-base);
     background-color: var(--White);
     border: 2px solid var(--primary-base) ;
+    transition: 0.5s;
 }
 
 .btn-primary-outline:hover , .btn-primary-outline:active{
     color: var(--primary-shade); 
     background-color: var(--White);
     border: 2px solid var(--primary-shade);
-     transform: scale(1.05 , 1.05);
+     transform: scale(1.1 , 1.1);
 }
 
 /* secondary filled buttons */
@@ -227,13 +230,14 @@ ul{
     color: var(--White);
     background-color: var(--secondary-Base);
     border: 2px solid var(--secondary-Base);
+    transition: 0.5s;
 }
     
 .btn-secondary:hover,  .btn-secondary:active{
     color: var(--White);
     background-color: var(--secondary-Shade);
     border: 2px solid var(--secondary-Shade);
-     transform: scale(1.05, 1.05);
+     transform: scale(1.1, 1.1);
 }
 
 .highlight{
