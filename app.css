@@ -47,8 +47,6 @@
    ----------------SPACIMG SYSTEM--------------
   5px/10px/15px/20px/25px/30px/40px/50px/60px/70px/80px/90px/100px/125px/150px/200px/250px/300px/400px/500px
 
-  add in universal selector later to remove the default spacing properties
-
  -----------------------------Global Styles----------------------------
  just a little bit of FYI those properties in the universal selector containing box sizing margin and padding are usually properties that you first add when you create a new css file
  but because I do not know about those properties at the beginning of this project I am adding it just now to remove the default padding and margin set on elements.. 
@@ -80,7 +78,7 @@
     /* LINE HEIGHT */
 
     --line-height-tight: 1.2;
-    --line-heighr-normal:1.5;
+    --line-height-normal:1.5;
 
     /* LETTER SPACING */
 
@@ -124,7 +122,7 @@ html{
 body{
     font-family: var(--font-family);
     font-weight: var(--font-weight-normal);
-    line-height: var(--line-heighr-normal);
+    line-height: var(--line-height-normal);
     color: var(--grey-Base);
 }
 /* the max width poroperty here is to ensure that the container does not go more than 1200px on larger screens */
@@ -136,7 +134,7 @@ body{
 
 h1 , h2 ,h3 , h4 , h5 {
     font-weight: var(--font-weight-bold);
-    line-height: var(--line-heighr-tight);
+    line-height: var(--line-height-tight);
     letter-spacing: var(--letter-spacing-tight);
     color: var(--grey-Shade); 
 }
@@ -222,7 +220,7 @@ ul{
     color: var(--primary-shade); 
     background-color: var(--White);
     border: 2px solid var(--primary-shade);
-     transform: scale(1.1 , 1.1);
+    transform: scale(1.1 , 1.1);
 }
 
 /* secondary filled buttons */
@@ -237,7 +235,7 @@ ul{
     color: var(--White);
     background-color: var(--secondary-Shade);
     border: 2px solid var(--secondary-Shade);
-     transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
 }
 
 .highlight{
