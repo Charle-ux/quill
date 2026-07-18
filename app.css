@@ -172,7 +172,7 @@ a{
     color:  var(--grey-Base);
 }
 /*you can as well group the pseudo class with the anchor tag(like write it together in one bracket instead of two different command)*/
-a:link, a:visited, a:hover, a:active{
+a:link, a:visited, a:hover  a:active{
     color: var(--grey-Shade);
 }
 span{
