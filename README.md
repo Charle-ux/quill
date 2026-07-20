@@ -2,6 +2,10 @@
 
 Quill is a journal taking web application for a digital bullet journal app. The website presents a calm journaling product.
 
+## Live Demo
+
+[View the live site]( https://charle-ux.github.io/quill/)
+
 ## Overview
 
 The project is built as a static website using HTML and CSS for now. It is focused on layout practice, responsive design, reusable styling, and a polished web-page experience for a journaling product.
